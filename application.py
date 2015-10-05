@@ -47,6 +47,9 @@ def country():
 
 def countries():
     cleaner()
+    print"################"
+    print"# Country list #"
+    print"################"
     for i in listone:
         print i.title()
     raw_input("press enter to continue")
@@ -54,6 +57,9 @@ def countries():
     menu()
 def capitals():
     cleaner()
+    print"#################"
+    print"# Capitals list #"
+    print"#################"
     for i in listtwo:
         print i.title()
     raw_input("press enter to continue")
